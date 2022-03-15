@@ -1,21 +1,24 @@
 import styled from "styled-components";
-import Myself from "./images/photo.jpg";
+import Myself from "./images/topImage.png";
 
 const Container = styled.div`
-  height: 60px;
+  height: 160px;
+  display: flex;
+  position: sticky;
 `;
 
 const Wrapper = styled.div`
-  height: 140px;
+  width: 100%;
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #34568b;
+  position: fixed;
 `;
 
 const Left = styled.div`
-  flex: 5;
+  flex: 6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,7 +55,9 @@ const Me = styled.img`
   width: 150px;
   border: 3px solid #d0d0d0;
   margin: 0;
-  border-radius: 50%;
+  border-radius: 15%;
+  cursor: none;
+  object-fit: cover;
 `;
 
 const Right = styled.div`
