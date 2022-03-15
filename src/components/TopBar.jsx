@@ -34,6 +34,11 @@ const ListOption = styled.li`
 const ListLink = styled.a`
   cursor: pointer;
   color: #bebebe;
+  text-decoration: none;
+  ${({ selected }) =>
+    selected &&
+    `border-bottom: 1px solid #bebebe;
+  `}
 `;
 
 const Center = styled.div`
@@ -105,11 +110,7 @@ const TopBar = ({ selectedTab, setSelectedTab }) => {
               <ListOption key={item.id}>
                 <ListLink
                   key={item.id}
-                  style={
-                    selectedTab === item.id
-                      ? { borderBottom: "1px dashed #bebebe" }
-                      : {}
-                  }
+                  selected={selectedTab === item.label}
                   onClick={() => setSelectedTab(item.label)}
                   href="#alex"
                 >
