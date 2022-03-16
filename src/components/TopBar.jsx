@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Myself from "./images/topImage.png";
+import Myself from "./images/homePhoto.jpg";
 
 const Container = styled.div`
   height: 160px;
@@ -55,9 +55,10 @@ const Me = styled.img`
   width: 150px;
   border: 3px solid #d0d0d0;
   margin: 0;
-  border-radius: 15%;
+  border-radius: 50%;
   cursor: none;
   object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 
 const Right = styled.div`

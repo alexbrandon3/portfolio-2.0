@@ -26,6 +26,7 @@ const FooterItemContainer = styled.div`
 
 const FooterItem = styled.a`
   padding: 5px;
+  cursor: default;
 `;
 
 const Desc = styled.span``;
@@ -55,7 +56,7 @@ const Footer = () => {
           </FooterItem>
         </FooterItemContainer>
         <FooterItemContainer>
-          <PhoneIcon style={{ color: "#34568b" }} />
+          <PhoneIcon style={{ color: "#34568b", paddingRight: "5px" }} />
           <Desc>704.699.1667</Desc>
         </FooterItemContainer>
       </Wrapper>
