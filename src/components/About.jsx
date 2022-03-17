@@ -83,8 +83,8 @@ const About = () => {
               between my shoulderblades. Six hours later, I would be admitted to
               the emergency room after losing all control over my body from the
               neck down. Christmas morning, after my second consecutive 3-hour
-              long full body MRI in eight hours, I would awake to a diagnosis of
-              four strokes and a prognosis of no hope of recovery with the
+              long full body MRI in eight hours, I would awaken to a diagnosis
+              of four strokes and a prognosis of no hope of recovery with the
               expectation of quadriplegia. Despite my case being investigated by
               neurologists across the country, the origin of my strokes remains
               unknown.
