@@ -80,14 +80,14 @@ const About = () => {
               It's December 24, 2018 and I am an exceptionally healthy young man
               looking forward to a promising career as an accountant. I sit down
               to watch TV when out of nowhere, an intense, searing pain erupts
-              between my shoulderblades. Six hours later, I would be admitted to
-              the emergency room after losing all control over my body from the
-              neck down. Christmas morning, after my second consecutive 3-hour
-              long full body MRI in eight hours, I would awaken to a diagnosis
-              of four strokes and a prognosis of no hope of recovery with the
-              expectation of quadriplegia. Despite my case being investigated by
-              neurologists across the country, the origin of my strokes remains
-              unknown.
+              between my shoulder blades. Six hours later, I would be admitted
+              to the emergency room after losing all control over my body from
+              the neck down. Christmas morning, after my second consecutive
+              3-hour long full body MRI in eight hours, I would awaken to a
+              diagnosis of four strokes and a prognosis of no hope of recovery
+              with the expectation of quadriplegia. Despite my case being
+              investigated by neurologists across the country, the origin of my
+              strokes remains unknown.
             </Story>
             <Story>
               Fortunately for me, my prognosis was no concrete sentencing. Four
