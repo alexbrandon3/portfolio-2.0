@@ -8,7 +8,7 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   display: flex;
-  background-color: #cc99ff;
+  background-color: #708090;
   width: 100%;
   height: 100%;
   justify-content: space-between;
@@ -19,7 +19,6 @@ const Wrapper = styled.div`
 const ProjectContainer = styled.a`
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   flex-direction: column;
   padding: 20px;

@@ -2,7 +2,9 @@ import styled from "styled-components";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 import PhoneIcon from "@mui/icons-material/Phone";
+import resume from "./images/Resume-2022.pdf";
 
 const Container = styled.div`
   height: 150px;
@@ -51,6 +53,11 @@ const Footer = () => {
           </FooterItem>
           <FooterItem href="mailto:alexlbrandon@gmail.com">
             <EmailIcon
+              style={{ color: "#34568b", fontSize: "70px", cursor: "pointer" }}
+            />
+          </FooterItem>
+          <FooterItem href={resume} target="_blank">
+            <LibraryBooksIcon
               style={{ color: "#34568b", fontSize: "70px", cursor: "pointer" }}
             />
           </FooterItem>
